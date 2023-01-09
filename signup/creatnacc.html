@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".\style1.css">
+    <script src=".\index.js"></script>
+</head>
+
+<body>
+    <form method="post" action="#">
+            <table align="center">
+                <tr>
+                    <td>Name:<span id="star">*</span></td>
+                    <td><input type="text" name="name" id="fname" placeholder="Enter Name" autocomplete="off">
+                </tr>
+                <tr>
+                    <td>Last Name:<span id="star">*</span></td></br>
+                    <td><input type="text" name="lname" id="lname" placeholder="Enter Last Name" autocomplete="off">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile Number:<span id="star">*</span></td>
+                    <td><input type="text" name="mobile" id="mobile" placeholder="Enter Mobile number"
+                            autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td>Email id:<span id="star">*</span></td>
+                    <td><input type="text" name="email" id="email" placeholder="Enter Email" autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td> Password:<span id="star">*</span></td>
+                    <td><input type="password" name="password" id="password" placeholder=" Password" autocomplete="off">
+                    </td>
+                </tr>
+                <tr>
+                    <td> Conform Password:<span id="star">*</span></td>
+                    <td><input type="password" name="password" id="cpassword" placeholder="Conform Password"
+                            autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth:<span id="star">*</span></td>
+                    <td><input type="date" name="dob" id="dob" autocomplete="off"></td>
+                    
+                </tr>
+                <tr>
+                    <td>Gender:<span id="star">*</span></td>
+                    <td><input type="radio" name="gender" value="Male" id="male">Male <input type="radio" name="gender"
+                            value="Famel" id="famel">Famel</td>
+                </tr>
+                <tr>
+                    <a href="">
+                        <td><button type="button" onclick="form_validation()">submit</button></td>
+                    </a>
+                    <td><button>cancel</button></td>
+                </tr>
+            </table>
+        </form>
+</body>
+
+</html>

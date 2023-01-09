@@ -1,0 +1,36 @@
+table{
+    background-color: rgb(41, 41, 102);
+    height: 440px;
+    width: 476px;
+    border: 4px rgb(149, 235, 12);
+    border-style: inset;
+}
+td{
+    color: cornsilk;
+    text-align: center;
+}
+.inputt{
+  border: 4px rgba(200, 9, 238, 0.76);
+  border-radius: 8px;
+  border-style: dotted;
+  height: 24px;
+  width: 250px;
+}
+#okbutton{
+    height: 32px;
+    width: 110px;
+    background-color: rgb(14, 25, 185);
+    color: white;
+}
+#cancelbutton{
+    height: 32px;
+    width: 110px;
+    background-color: rgb(14, 25, 185);
+    color: white;
+}
+#sendbutton{
+    height: 32px;
+    width: 110px;
+    background-color: rgb(14, 25, 185);
+    color: white;
+}

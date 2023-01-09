@@ -1,0 +1,35 @@
+table{
+    background-color: rgb(41, 41, 102);
+    height: 476px;
+    width: 446px;
+    border: 4px rgb(149, 235, 12);
+    border-style: inset;
+    text-align: center;
+}
+.inputt{
+    border: 4px rgba(200, 9, 238, 0.76);
+    border-radius: 8px;
+    border-style: dotted;
+    height: 24px;
+    width: 250px;
+  }
+#facebook{
+    color: white;
+    font-size: 26px;
+}
+.butt{
+    height: 27px;
+    width: 257px;
+    background-color: rgb(14, 25, 185);
+    color: white;
+}
+
+a{
+    color: rgba(109, 211, 8, 0.87);
+}
+/* #inputd{
+    border: 4px rgba(200, 9, 238, 0.76);
+  border-radius: 8px;
+  border-style: dotted;
+} */
+

@@ -1,0 +1,32 @@
+table{
+    background-color: rgb(41, 41, 102);
+    height: 500px;
+    width: 505px;
+    border: 4px rgb(149, 235, 12);
+    border-style: inset;
+}
+td{
+    color: cornsilk;
+    text-align: center;
+}
+input{
+  border: 4px rgba(200, 9, 238, 0.76);
+  border-radius: 8px;
+  border-style: dotted;
+}
+button{
+    background-color: rgb(21, 202, 30);
+}
+#star{
+    color: rgb(255, 0, 0);
+}
+:focus{
+    color: rgb(32, 19, 216);
+}
+::placeholder{
+    color: rgba(95, 133, 7, 0.883)
+}
+:focus-within{
+    border-color: rgb(241, 85, 13);
+ border-color: greenyellow;
+}
